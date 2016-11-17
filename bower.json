@@ -1,0 +1,36 @@
+{
+  "name": "ci-backend-template-website",
+  "authors": [
+    "Truong Van Phu <truong.van.phu@bpotech.com.vn>"
+  ],
+  "description": "",
+  "main": [
+    "css/reset.css",
+    "css/grid.css",
+    "css/styles.css",
+    "css/thickbox.css",
+    "css/theme-blue.css",
+    "jquery.wysiwyg",
+    "js/jquery.pstrength-min.1.2.js",
+    "js/jquery.wysiwyg.js",
+    "js/thickbox.js",
+    "js/html-table-searc.js"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/extensions",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "messi": "*",
+    "overlay": "*",
+    "tablesorter": "*"
+  }
+}
